@@ -1,9 +1,33 @@
 # LiveCapsule：面向 Windows 的灵动岛桌面工具
 
-# [English](##English)
 > 一款以 Python 和 PySide6 构建的 Windows 桌面悬浮工具。它把时间、天气、系统资源、媒体控制和常用应用入口集中在一枚可展开的“灵动岛”中，并提供通知、日历、AI 助手与高精度计算器等扩展功能。
 
 **LiveCapsule 不是 Apple 官方产品，也不隶属于 Apple。** 本项目是独立的 Windows 桌面软件，视觉和交互灵感来自灵动岛式的紧凑信息呈现。
+
+---
+
+下面开始讲人话：
+
+事情的起因是由于我用的是iPhone13，没有灵动岛，一天我又看到了DeepSeek Harness，它能够直接构建一个项目并编辑本地的文件。机会来了！但当我下好后……DeepSeek API要钱啊！
+
+于是乎，我就把微信里的40块钱干了出来……开始了这个项目。
+
+用着用着，我发现嗯~ o(*￣▽￣*)o怪好用的，只要有需求，没啥大问题。于是又干了40（嘻嘻）。
+
+但是这四十块钱全被我拿来做了个计算器（bushi）……好好好，80块用完了，真没了。
+
+我上网查找方案，只找到了Github Copilot……能用是能用，但是它有个沙箱，把我弄得团团转。结果最后，还是B站，[Our Free Mode](https://github.com/Ebony-Vinyl/dsh-our-free-model)来了！我直接一顿狂喜，赶了一个周末修好了所有项目发布了！
+
+注：在计算器中有一个结合NPU的550C MOSS Mode的模式，其中动画引用了yannicksong0106的[dsh-550c-boot](https://github.com/yannicksong0106/dsh-550c-boot)
+
+#### 全部使用库、软件及模型：
+##### 软件：
+[DeepSeek Harness](https://www.deepseek.com/harness/) (全部代码制作、调试、编写工作)、[DeepSeek API](https://platform.deepseek.com/usage)、[Github Copilot](https://github.com/features/copilot/) ([README.md](https://github.com/ShuoweiFu/LiveCapsule/edit/main/README.md) Github文档)
+##### 库：
+[Our Free Mode](https://github.com/Ebony-Vinyl/dsh-our-free-model)、[dsh-550c-boot](https://github.com/yannicksong0106/dsh-550c-boot)
+##### 模型：
+DeepSeek V4.1-Flash(几乎所有编写工作)、DeepSeek V4-Pro(复杂理解代码编写)、gpt-6-luna(Github READMD.md编写)、gpt-6-Astra(给AI翻译如何做出液态玻璃)
+
 
 ---
 
