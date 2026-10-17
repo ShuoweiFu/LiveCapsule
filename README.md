@@ -2,13 +2,17 @@
 
 > 一款以 Python 和 PySide6 构建的 Windows 桌面悬浮工具。它把时间、天气、系统资源、媒体控制和常用应用入口集中在一枚可展开的“灵动岛”中，并提供通知、日历、AI 助手与高精度计算器等扩展功能。
 
-**LiveCapsule 不是 Apple 官方产品，也不隶属于 Apple。** 本项目是独立的 Windows 桌面软件，视觉和交互灵感来自灵动岛式的紧凑信息呈现。
+**LiveCapsule 不是 Apple 官方产品，也不隶属于 Apple。** 本项目是独立的 Windows 桌面软件（后可能会支持MacOS），视觉和交互灵感来自灵动岛式的紧凑信息呈现。
 
 ---
 
-下面开始讲人话：
+###### ~~下面开始讲人话~~：
 
-事情的起因是由于我用的是iPhone13，没有灵动岛，一天我又看到了DeepSeek Harness，它能够直接构建一个项目并编辑本地的文件。机会来了！但当我下好后……DeepSeek API要钱啊！
+事情的起因是由于我用的是iPhone13，没有灵动岛，而我有十分渴望有一个灵动岛。那既然iOS不行，只能Windows了……但我又看到网上有好多好多Windows的灵动岛，可是转了个几圈，感觉自己做的才会有点意思。可惜……对于我这个学了C++，Python忘光的人来说，太难了……
+
+我转头看向了Codex…… “美国的就是不好啊，梯子要钱，免费的ProtonVPN在我电脑上又运行不起来。再说，如果我下好了，梯子有了，它又会让我绑定手机号，结果还没有+86！”
+
+可是，过了几天，情况有了改变！我在B站上看到了DeepSeek Harness，它能够直接构建一个项目并编辑本地的文件！简直是天生就是做项目的，而且比Codex的使用简单多了。但当我下好后：“ber！DeepSeek API要钱啊！”
 
 于是乎，我就把微信里的40块钱干了出来……开始了这个项目。
 
@@ -16,9 +20,9 @@
 
 但是这四十块钱全被我拿来做了个计算器（bushi）……好好好，80块用完了，真没了。
 
-我上网查找方案，只找到了Github Copilot……能用是能用，但是它有个沙箱，把我弄得团团转。结果最后，还是B站，[Our Free Mode](https://github.com/Ebony-Vinyl/dsh-our-free-model)来了！我直接一顿狂喜，赶了一个周末修好了所有项目发布了！
+我上网查找方案，只找到了Github Copilot……能用是能用，但是它有个沙箱，把我弄得团团转，顶多让他写个Markdown的README文档。结果最后，还是B站，[Our Free Mode](https://github.com/Ebony-Vinyl/dsh-our-free-model)来了！我直接一顿狂喜，赶了一个周末修好了所有Bug和问题发布了！（2026/10/18！）
 
-注：在计算器中有一个结合NPU的550C MOSS Mode的模式，其中动画引用了yannicksong0106的[dsh-550c-boot](https://github.com/yannicksong0106/dsh-550c-boot)
+注：在计算器中有一个结合NPU的550C MOSS Mode的模式，其中动画引用了yannicksong0106的[dsh-550c-boot](https://github.com/yannicksong0106/dsh-550c-boot)（完整版），还有一个曼德尔模式，动画参考的是Forza Horizon（地平线）4&5 启动时 Turn 10 Studios至Xbox Games Studios的过渡动画。
 
 #### 全部使用库、软件及模型：
 ##### 软件：
@@ -158,6 +162,14 @@ LiveCapsule/
 > A Windows desktop floating tool built with Python and PySide6. It gathers the clock, weather, system resources, media controls, and shortcuts to frequently used apps into a single expandable "Dynamic Island," with extended features including notifications, a calendar, an AI assistant, and a high-precision calculator.
 
 **LiveCapsule is not an official Apple product and is not affiliated with Apple.** This project is an independent Windows desktop application whose visual style and interactions are inspired by the compact, Dynamic-Island-style presentation of information.
+
+#### All Libraries, Software, and Models Used:
+##### Software:
+[DeepSeek Harness](https://www.deepseek.com/en/harness/) (all coding, debugging, and writing), [DeepSeek API](https://platform.deepseek.com/usage), [Github Copilot](https://github.com/features/copilot/) ([README.md](https://github.com/ShuoweiFu/LiveCapsule/edit/main/README.md) Github docs)
+##### Libraries:
+[Our Free Mode](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-550c-boot](https://github.com/yannicksong0106/dsh-550c-boot)
+##### Models:
+DeepSeek V4.1-Flash (basically all the coding), DeepSeek V4-Pro (for complex code understanding), gpt-6-luna (writing Github README.md), gpt-6-Astra (teaching AI how to make liquid glass)
 
 ---
 
