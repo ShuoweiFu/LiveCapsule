@@ -1,5 +1,6 @@
 # LiveCapsule：面向 Windows 的灵动岛桌面工具
 
+# [English](##English)
 > 一款以 Python 和 PySide6 构建的 Windows 桌面悬浮工具。它把时间、天气、系统资源、媒体控制和常用应用入口集中在一枚可展开的“灵动岛”中，并提供通知、日历、AI 助手与高精度计算器等扩展功能。
 
 **LiveCapsule 不是 Apple 官方产品，也不隶属于 Apple。** 本项目是独立的 Windows 桌面软件，视觉和交互灵感来自灵动岛式的紧凑信息呈现。
